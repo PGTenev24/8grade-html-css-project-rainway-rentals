@@ -52,3 +52,8 @@ a {
 .sign_in, .log_in:hover {
     background-color: rgba(0, 136, 169, 0.8);
 }
+
+.nav_bar_logo {
+    max-width: 500px;
+    max-height: 125px;
+}
