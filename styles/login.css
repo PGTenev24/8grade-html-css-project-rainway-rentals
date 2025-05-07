@@ -1,13 +1,15 @@
 body {
     display: flex;
-    background-color: lightblue;
+    background-color: rgb(41, 41, 41);
     align-items: center;
     justify-content: center;
     font-family: Arial, sans-serif;
+    flex-direction: column;
 }
 
 .container {
-    border: 7px solid black;
+    border: none;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
     border-radius: 20px;
     display: flex;
     width: 400px;
@@ -15,7 +17,7 @@ body {
     margin: 100px;
     flex-direction: column;
     justify-content: space-evenly;
-    background-color: rgb(173, 211, 230);
+    background-color: rgb(68, 68, 68);
 }
 
 .form {
@@ -31,6 +33,7 @@ body {
     font-size: large;
     align-self: center;
     margin: 10px;
+    border: 2px solid rgb(68, 68, 68);
 }
 
 .input-5 {
@@ -46,4 +49,9 @@ body {
 
 .header {
     align-self: center;
+}
+
+.input:focus {
+    border: 2px solid black;
+    outline: none;
 }
