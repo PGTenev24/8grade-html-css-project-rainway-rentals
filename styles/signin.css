@@ -36,12 +36,12 @@ body {
     border: 2px solid rgb(68, 68, 68);
 }
 
-.input-4 {
+.input-5 {
     background-color: rgb(173, 211, 230);
     transition: 0.3;
 }
 
-.input-4:hover {
+.input-5:hover {
     transition: 0.25s;
     background-color: rgb(173, 200, 230);
     transform: scale(1.05);
